@@ -13,7 +13,7 @@
 }
 
 .card {
-  max-width: 250px;
+  width: 260px;
   margin: auto;
   background-color: hsl(0, 0%, 100%);
   padding: 15px;
@@ -28,14 +28,14 @@
 
 .card__title {
   font-weight: 700;
-  font-size: 15px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 20px;
   color: hsl(218, 44%, 22%);
 }
 
 .card__paragraph {
   font-weight: 400;
   font-size: 15px;
-  margin-top: 10px;
+  margin: 10px 0;
   color: hsl(220, 15%, 55%);
 }
