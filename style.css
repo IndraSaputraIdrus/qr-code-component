@@ -1,21 +1,30 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGray: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
+}
+
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-.container {
+body {
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: hsl(212, 45%, 89%);
+  background-color: var(--lightGray);
   font-family: "Outfit", sans-serif;
+  padding: 2rem;
 }
 
-.card {
-  width: 260px;
+.container {
+  max-width: 290px;
   margin: auto;
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--white);
   padding: 15px;
   border-radius: 20px;
   text-align: center;
@@ -28,14 +37,15 @@
 
 .card__title {
   font-weight: 700;
-  font-size: 20px;
-  margin-top: 20px;
-  color: hsl(218, 44%, 22%);
+  font-size: 1.45rem;
+  margin: 1rem 0;
+  color: var(--darkBlue);
+  text-align: center;
 }
 
 .card__paragraph {
   font-weight: 400;
   font-size: 15px;
-  margin: 10px 0;
-  color: hsl(220, 15%, 55%);
+  margin-bottom: 2rem;
+  color: var(--grayishBlue);
 }
